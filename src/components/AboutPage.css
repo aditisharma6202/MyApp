@@ -1,0 +1,295 @@
+.AboutPageBackground{
+    max-width: 100vw;
+    min-height: 100vh;
+   
+ 
+}
+
+.demoabout a {
+    position:absolute;
+     bottom: 20px;
+    left:45%;
+     z-index: 2;
+     display: inline-block;
+     -webkit-transform: translate(0, -50%);
+     transform: translate(0, -50%);
+     color: #fff;
+     font : normal 400 20px/1 'Josefin Sans', sans-serif;
+     letter-spacing: .1em;
+     text-decoration: none;
+     transition: opacity .3s;
+   }
+  .demoabout a:hover {
+    opacity: .5;
+  }
+  
+#section04 a {
+    padding-top: 10vh;
+  }
+  #section04 a span {
+  
+     width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -0.8rem;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb04 2s infinite;
+    animation: sdb04 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb04 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+  @keyframes sdb04 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+.readmore{
+    display:none;
+}
+
+.btn{
+    border:none;
+    background-color:white;
+    text-decoration: none;
+    color:blue;
+    border-radius: 5px;
+    max-width: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
+.dusraBox{
+
+  margin: 0 8rem;
+    padding: 4rem;
+    background-color: rgb(255, 255, 255);
+}
+.tisraBox{
+background-color: aliceblue;
+padding:4rem 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.vision{
+    line-height: 1.8rem;
+}
+.joinText{
+    line-height: 1.8rem;
+}
+.joinHeading{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2rem;
+}
+.VisionHeading{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2rem;
+}
+.Boxpehlaoftisra{
+    max-width: 30%;
+}
+.Boxdusraoftisra{
+    max-width: 30%;
+}
+.AboutUsText{
+    display: grid;
+    place-content:center;
+    line-height: 1.8rem;
+}
+.AboutUsContext{
+    gap:10rem;
+display: flex;
+flex-direction: row;
+}
+.AboutUs{
+align-items: center;
+display: flex;
+flex-direction: column;
+margin:auto;
+max-width: 100vw;
+color: white;
+/*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+}
+.HeadingBoxAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background:rgba(0, 0, 0, 0.6);
+}
+.AboutUsImg{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    max-width: 40%;
+    max-height: 19rem;
+}
+.pehlaLine{
+    font-size: 8rem;
+   letter-spacing: 0.2rem;
+   font-family: 'Bodoni Moda', serif;
+padding-top: 6rem;}
+.dusraLine{
+    font-size: 2rem;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 0.4rem;
+   
+}
+.quotes{
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-family: 'Bodoni Moda', serif;
+color:rgb(3, 3, 39);
+}
+.quotes::after{
+    content: close-quote;
+    font-size: 4rem;
+    opacity:0.5
+}
+.quotes::before{
+    content: open-quote;
+    font-size: 4rem;
+    opacity:0.5
+}
+.MemberOne{
+    padding: 2rem 2rem;
+    display:flex;
+    justify-content: space-evenly;
+    max-width: 100vw;
+    gap:3rem;
+    flex-wrap:wrap;
+    
+}
+.MeetUs{
+    font-size: 2rem;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 0.4rem;
+    font-weight: 600;
+    padding: 2rem;
+    
+}
+.boxone{
+    height: 100vh;
+    width: 100vw;
+}
+.MemberImg{
+    max-width:10rem;
+}
+@media (max-width:750px) {
+    .AboutUs{
+        font-size: 0.8rem;
+    }
+    .MeetUs{
+        font-size: 1.5rem;}
+    .pehlaLine{
+        font-size: 4rem;
+    }
+    .dusraLine{
+        font-size: 1rem;
+    }
+    .AboutUsImg{
+    max-width: 95%;
+    }
+}
+@media (max-width:1300px) {
+    .AboutUsContext{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap:2rem;
+       align-content: center;
+    } 
+}
+@media (max-width:1120px) {
+    .AboutUsImg{
+        max-width: 70%;
+    }
+    .tisraBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+    }
+    .Boxpehlaoftisra{
+        max-width: 80%;
+    }
+    .Boxdusraoftisra{
+        max-width: 80%;
+    }
+    .dusraBox{
+        margin :0 1rem;
+    }
+    .MemberImg{
+        max-width: 8rem;
+    }
+    .MemberOne{
+        padding: 2rem 2rem;
+        max-width: 100vw;
+        gap:2rem;
+        flex-wrap:wrap;
+        
+    }
+    
+}
+@media(max-width:700px){
+    .quotes{
+        font-size: 1.8rem;
+    }
+    .quotes::after{
+        font-size: 2rem;
+    }
+    .quotes::before{
+        font-size: 2rem;
+    }
+    .AboutUsText{
+        font-size: 0.8rem;
+    }
+    .joinHeading{
+        font-size: 1.3rem;
+    }
+    .VisionHeading{
+        font-size: 1.3rem;
+    }
+    .joinText{
+        font-size: 0.8rem;
+    }
+    .vision{
+        font-size: 0.8rem;
+    }
+    .MemberImg{
+        max-width: 7rem;
+    }
+    .MemberOne{
+        padding: 2rem 2rem;
+        max-width: 100vw;
+        gap:2rem;
+        flex-wrap:wrap;
+        
+    }
+}
+@media (max-width:500px) {
+    .dusraBox{
+        margin: 0 0.3rem;
+    }
+    .AboutUsImg{
+        max-width: 100%;
+    }
+}

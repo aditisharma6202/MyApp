@@ -1,0 +1,41 @@
+.vectorContact{
+    max-width: 2em;
+
+}
+.details{
+    letter-spacing: 0.08rem;
+    word-spacing: 0.1rem;
+    
+    justify-content: center;
+    padding:0.5em ;
+    gap:1em;
+    color:white;
+    font-size: 0.8rem;
+}
+.links{
+    
+    justify-content: center;
+    display:flex;
+    gap:1em;
+    padding:0.5em;
+}
+.links:hover{
+    padding:0.5em;
+    cursor: pointer;
+}
+.contactBox{
+    
+    padding: 1rem;
+    margin-top: -1em;
+    
+}
+
+.headingContact{
+    
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:white;
+    padding:0.5em;
+    letter-spacing: 0.1em;
+    
+}

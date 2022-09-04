@@ -1,0 +1,575 @@
+.header{
+    
+    /*..min-height: 100vh;.*/
+    position:relative;
+   letter-spacing: 0.1rem;
+    align-items: center;
+        
+}
+.demo a {
+   position:absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  
+#section04 a {
+    padding-top: 10vh;
+  }
+  #section04 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+     width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -0.8rem;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb04 2s infinite;
+    animation: sdb04 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb04 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+  @keyframes sdb04 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+    20% {
+      transform: rotate(-45deg) translate(-10px, 10px);
+    }
+    40% {
+      transform: rotate(-45deg) translate(0, 0);
+    }
+  }
+
+
+.headerText{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    color:white;
+  position:absolute;
+   max-width: 50%;
+   top:30%;
+   left:30%;
+    gap:1rem;
+    padding: 4rem;
+    z-index: 50;
+    letter-spacing: 0.1rem;
+    
+
+}
+.text1{
+    padding:1em;
+    font-size:1rem;
+}
+.text2{
+font-size: 1.5rem;
+}
+.optionBox{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    max-width: 50%;
+    display:flex;
+    
+    gap:2em;
+   margin:auto;
+    justify-content: center;
+    margin-top: -3rem;
+    background-color: #fff;
+}
+.vector{
+    max-width: 2rem;
+}
+btn:hover{
+    cursor: pointer;  
+
+}
+.option{
+    padding:1rem;
+    width: 40rem;
+    gap:1rem;
+
+}
+.optionText{
+    padding:0.5rem;
+}
+.option:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding:1em;
+  transition: 0.5s ease;
+  background-color: rgba(66, 59, 75, 0.7);
+  overflow: hidden;
+}
+.aboutUs{
+    padding-top: 2em;
+    max-width: 50%;
+    margin:auto;
+}
+.heading{
+    padding: 1rem;
+    font-size: 1.3rem;
+    color:#06375e;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    
+}
+.contentText{
+    line-height:1.5em;
+    word-spacing: 0.4rem;
+    font-size: 1em;
+   margin-bottom:2rem;
+   box-sizing: border-box;
+}
+.headingTwo{
+    padding-bottom:0.7rem;
+}
+.ongoingProject{
+   display: flex;
+   position:relative;
+   box-sizing: border-box;
+   margin: 0 6rem;
+    text-align: center; 
+    padding-bottom: 9rem; 
+   
+}
+.background{
+    margin-top:1rem;
+    padding:1rem;
+    background-color: #f4f9f5;
+}
+.imageBackground{
+    margin-top:2rem;
+    margin-left: 5rem;
+    max-width: 16rem;
+ 
+}
+.option{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    max-width: 40%;
+    right:5rem;
+    font-size: 00.9rem;
+}
+.frontImage{
+    max-width:18rem;
+    
+    margin-left: -16rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.latestCampaigns{
+    display: flex;
+    font-size: 0.8rem;
+    
+    padding-left:2rem;
+    padding-right: 2rem;
+    background-color:#06375e;
+    align-items: center;
+   margin-bottom: 0.8rem;
+    line-height: 1.5rem;
+    color:#fff;
+  letter-spacing: 0.06rem;
+  word-spacing: 0.15rem;
+}
+.imageOne{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+    max-width: 18rem;
+   
+
+}
+.campaignText{
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+
+}
+.headingA{
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color:#06375e;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color:#fff;
+}
+
+@media (max-width: 700px) {
+    
+    .headerText{
+       top:35vh;
+       left:30vw;
+        gap:0.5rem;
+        padding: 2rem;
+        z-index: 1 !important;
+    }
+    .text1{
+    
+        font-size:0.7rem;
+    }
+    .text2{
+    font-size: 1rem;
+    }
+    .optionBox{
+        
+        max-width: 60%;
+        font-size: 1rem;
+         gap:2em;
+         margin-top: -3rem;
+        background-color: #fff;
+    }
+    .vector{
+        max-width: 2rem;
+    }
+    .campaignText{
+        padding-left:1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 799px) {
+
+
+    .headerText{
+       top:35vh;
+       left:30vw;
+        gap:0.4rem;
+        padding: 1.7rem;
+    }
+    .text1{
+    
+        font-size:0.8rem;
+    }
+    .text2{
+    font-size: 1rem;
+    }
+    .optionBox{
+        
+        max-width: 60%;
+        font-size: 0.7rem;
+         gap:0.4rem;
+         margin-top: -3rem;
+        background-color: #fff;
+    }
+    .vector{
+        max-width: 2rem;
+    }
+    .imageBackground{
+        margin-top:4rem;
+        max-width: 12rem;
+     
+    }
+    .text{
+        position: absolute;
+        max-width: 40%;
+        right:3rem;
+    }
+    .frontImage{
+        max-width:16rem;
+        
+        margin-left: -3rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .ongoingProject{
+        font-size: 1rem;
+        margin:2em;
+      
+    }
+    
+    .heading{
+        font-size: 1rem;
+        padding:0.4em;
+        margin-top:0;
+    }
+    .latestCampaigns{
+        display: flex;
+        padding-left:2rem;
+        padding-right: 2rem;
+       
+        align-items: center;
+       margin-bottom: 1rem;
+        line-height: 1.5rem;
+        color:#fff;
+    }
+    .imageOne{
+        max-width: 13rem;
+    }
+    .campaignText{
+        padding-left:1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        font-size: 0.7rem;
+    }
+    .headingA{
+        padding: 0.8rem;
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.08rem;
+    }
+
+
+}
+@media (max-width: 320px) {
+    
+    .headerText{
+       top:35vh;
+       left:30vw;
+        gap:0.4rem;
+        padding: 1rem;
+    }
+    .text1{
+    
+        font-size:0.6rem;
+    }
+    .text2{
+    font-size: 1rem;
+    }
+    .optionBox{ 
+        max-width: 60%;
+        font-size: 0.6rem;
+         gap:0.2rem;
+         margin-top: -3rem;
+        background-color: #fff;
+    }
+    .vector{
+        max-width: 1rem;
+    }
+    .imageBackground{
+        margin:0rem;
+         max-width: 16rem;
+     }
+     .option{
+         width: 100%;
+     }
+     .text{
+        display:contents;
+        max-width: 90%;
+        text-align: center;
+     }
+     .frontImage{
+         max-width:16rem;
+         margin-top:0rem;
+         margin-left: -14rem;
+         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+     .contentText{
+        font-size: 0.6rem;
+     }
+}
+@media (max-width: 520px){
+    
+    .vector{
+        max-width: 1rem;
+    }
+    .optionBox{
+        
+        max-width: 70%;
+        font-size: 0.6rem;
+         gap:0.2rem;
+         margin-top: -3rem;
+        background-color: #fff;
+    }
+    
+}
+@media(max-width:1040px){
+    
+.headerText{
+    left:25%;
+    
+}
+    .imageBackground{
+        margin-top:3rem;
+        max-width: 15rem;
+     
+    }
+    .text{
+        position: absolute;
+        max-width: 40%;
+        right:3rem;
+        text-align: left;
+    }
+    .frontImage{
+        max-width:16rem;
+        
+        margin-left: -13rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .ongoingProject{
+        font-size: 0.8rem;
+       margin:0;
+       padding-bottom:5em;
+    } 
+    .heading{
+        font-size: 1rem;
+        padding:0.4em;
+        margin-top:0;
+    }
+    .latestCampaigns{
+        display: flex;
+        padding-left:2rem;
+        padding-right: 2rem;
+       margin-bottom: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .imageOne{
+        max-width: 13rem;
+    }
+    .campaignText{
+        padding-left:1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+    .headingA{
+        padding: 0.8rem;
+        margin-top: 0.8rem;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+    }
+    .background{
+        padding-bottom: 2rem;
+    }
+    .text1{
+        font-size: 0.9rem;
+    }
+    .text2{
+        font-size: 1.2rem;
+    }
+.imageOne{
+    width:20rem;
+}
+}
+@media(max-width:780px){
+    .latestCampaignBox{
+        display:none;
+       }
+    .ongoingProject{
+       
+        position:relative;
+        display: block;
+       
+        margin: 0 5rem;
+         text-align: center;  
+     }
+     .background{
+         margin-top:1rem;
+         padding:1rem;
+         background-color: #f4f9f5;
+     }
+     .imageBackground{
+        margin:0rem;
+         max-width: 16rem;
+     }
+     .option{
+         width: 100%;
+     }
+     .text{
+        display:contents;
+        max-width: 90%;
+        text-align: center;
+     }
+     .frontImage{
+         max-width:16rem;
+         margin:0rem;
+         margin-left: -14rem;
+         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+
+}
+@media(max-width:480px){
+   
+    .imageBackground{
+        margin:0rem;
+         max-width: 16rem;
+     }
+     .option{
+         width: 100%;
+     }
+     .text{
+        display:contents;
+        max-width: 95%;
+        text-align: center;
+     }
+     .frontImage{
+         max-width:16rem;
+         margin:0rem;
+         
+         margin-left: -2rem;
+         margin-top:-16rem;
+         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     }
+     .campaignText{
+        font-size: 0.6rem;
+     }
+     .ongoingProject{
+        margin: 0 1em ;
+        font-size: 0.7rem;
+     }
+     .contentText{
+        font-size: 0.7rem;
+     }
+     .aboutUs{
+        max-width: 70%;
+     }
+     
+}
+@media all and (min-width: 1130px) {
+    .slidingBox{
+        display:none;
+    }
+.campaignText{
+    font-size: 0.8rem;
+}
+}
+    
+
+@media not all and (min-width: 1130px) {
+    .latestCampaignBox{
+        display:none;
+    }
+.campaignText{
+    font-size: 0.7rem;
+}
+}
+@media (min-width:780px) and(max-width:1000px){
+    .vector{
+        max-width: 1.5rem;
+    }
+    .headerText{
+        left: 23%;
+    }
+    .ongoingProject{
+    padding-bottom: 5rem;
+    }
+    .campaign{
+        font-size: 00.8rem;
+    }
+}

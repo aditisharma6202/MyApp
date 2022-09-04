@@ -1,0 +1,33 @@
+.arrow{
+    
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-top: 5rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.slider-MainBox{
+   
+    display: block;
+}
+.sliderBox{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 80%;
+    margin:auto;
+}
+.imageSlide{
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+max-width: 20rem;
+margin-top:2rem;
+}
+@media(max-width:480px){
+    .imageSlide{
+       max-width: 16rem; 
+       
+    }
+    .sliderBox{
+        max-width: 100%;
+    }
+}
